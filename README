@@ -1,0 +1,31 @@
+########
+#License        GNU/GPL 
+#Author Beto Alves
+#######
+
+
+################################
+Debian - packages to install:
+
+python-wxgtk2.8 python-wxtools
+sshpass
+Eterm
+################################
+
+################################
+Change the upaupa.xml where you put your connection parameters
+################################
+
+################################
+To Run:
+python index.py &
+################################
+
+################################
+Others consoles:
+Change in function - newEterm
+example for konsole:
+    
+execute =" konsole -e sshpass -p %s ssh -l %s %s &" %(passw,user,ip)
+################################
+

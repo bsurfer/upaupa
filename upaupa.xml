@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+<upaupa>
+
+<group name="SITE1">
+	<server name="machine1" host="192.168.2.1" user="root" password="xxxx"/>
+	<server name="machine2" host="192.168.3.12" user="root" password="xxx"/>
+</group>
+<group name="SITE2">
+	<server name="machine1" host="192.168.4.23" user="root" password="xxx" />
+</group>
+
+<group name="SITE3">
+	<server name="machine1" host="192.168.4.23" user="root" password="xxx" />
+	<server name="machine2" host="192.168.4.23" user="root" password="xxx" />
+	<server name="machine3" host="192.168.4.23" user="root" password="xxx" />
+	<server name="machine4" host="192.168.4.23" user="root" password="xxx" />
+	<server name="machine5" host="192.168.4.23" user="root" password="xxx" />
+</group>
+
+<group name="TEST1">
+	<server name="machine1" host="192.168.4.23" user="root" password="xxx" />
+	<server name="machine2" host="192.168.4.23" user="root" password="xxx" />
+	<server name="machine3" host="192.168.4.23" user="root" password="xxx" />
+	<server name="machine4" host="192.168.4.23" user="root" password="xxx" />
+</group>
+
+
+
+<group name="TEST2">
+	<server name="machine1" host="192.168.4.23" user="root" password="xxx" />
+	<server name="machine7" host="192.168.4.23" user="root" password="xxx" />
+</group>
+
+
+
+
+</upaupa>
+	
